@@ -45,6 +45,27 @@
                     By using semantic HTML, you enhance the structure and meaning of your web content, making it more accessible to users and search engines alike.
                 </p>
             </section>
+            <section>
+                <h3 id="form-title">Leave a Comment</h3>
+                <form action="#" method="post" aria-labelledby="form-title">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="comment">Your Comment</label>
+                        <textarea id="comment" name="comment" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                    <div aria-live="polite" role="alert"></div>
+                </form>
+            </section>
             <footer>
                 <p>&copy; 2024 My Blog</p>
                 <p>Published on 2024-09-11</p>
