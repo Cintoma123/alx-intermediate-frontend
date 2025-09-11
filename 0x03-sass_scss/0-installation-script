@@ -1,0 +1,7 @@
+first step:
+run this command 
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+or 
+if nodejs is already installed on your system
+npm install sass -v 3.7.4
+then press command ```exit``` to exit the terminal 

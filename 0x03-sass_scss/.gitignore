@@ -1,0 +1,7 @@
+# Sass cache
+.sass-cache/
+
+# Compiled CSS
+debug.css
+debug.css.map
+*.css.map
